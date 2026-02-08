@@ -54,6 +54,15 @@ p {
   line-height: 1.6;
   color: #555;
 }
+.project-card{
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius:8px ;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 html {
   scroll-behavior: smooth;
 }
