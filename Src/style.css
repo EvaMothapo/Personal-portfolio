@@ -157,13 +157,34 @@ h2 {
   text-decoration: none;
   font-weight: 600;
 }
-footer a {
-  text-decoration: none;
-  color: #0077b5;
+footer{
+background-color: #ffffff;
+padding: 30px 20px;
+text-align: center;
+margin-top: 60px;
+box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
 }
-@media (max-width: 768px) {
+.footer-links{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+}
+.footer-links a{
+text-decoration: none;
+color:#0077b5;
+font-weight: 600;
+}
+@media (max-width: 600px) {
+  nav{
+    height:auto;
+    padding: 10px 0;
+  }
   nav ul {
-    gap: 18px;
+    flex-direction: column;
+    gap: 12px;
+  }
+  body{
+    padding-top: 120px;
   }
   .homepage-container {
     text-align: center;
